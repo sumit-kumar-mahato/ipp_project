@@ -8,6 +8,7 @@ import io
 import zlib
 from datetime import datetime
 import json
+import cv2
 
 
 # ============================================================================
