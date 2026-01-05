@@ -1,4 +1,10 @@
 import streamlit as st
+try:
+    import cv2
+except Exception as e:
+    st.error("❌ OpenCV import failed")
+    st.exception(e)
+    st.stop()
 import cv2
 import numpy as np
 from PIL import Image
